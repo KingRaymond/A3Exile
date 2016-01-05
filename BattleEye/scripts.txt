@@ -1,2 +1,8 @@
 7 playableUnits	!="icons\compass.paa' color='%6'/> %10</t>",\n\n"%",\ncount playableUnits,\n_damage,\n_wallet,\n_serverFPS,\n_stamina,\n_colourDefaul"
 7 execVM !="execVM \"Scripts\statusBar\statusBar.sqf\"" !="execVM \"Scripts\logo\logo.sqf\""
+7 remoteexec  !"ZMPKilled" !"Killed" !"MPKilled"
+7 compileFinal !"Ryanzombiesfncs" !"fnc_RyanZombies_SwitchMove" !"fnc_RyanZom"
+7 setDammage !"ryanzombies\zombie.sqf\"
+7 setDamage !"\ryanzombies\acedamage.sqf\" !"\ryanzombies\acedamageboss.sqf"
+7 execVM !"\ryanzombies\zombie.sqf" !"\ryanzombies\sounds.sqf\"
+7 eventHandler line !"MPKilled" !"MPHit" !"ZMPKilled"
