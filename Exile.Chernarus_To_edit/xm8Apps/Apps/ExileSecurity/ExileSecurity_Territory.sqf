@@ -90,7 +90,7 @@ if !(SecurityDebug) then {
     playSound ["SndXM8PowerOn", true];
 
 _backgroundSplash = _display ctrlCreate ["RscPicture", 6028];
-_backgroundSplash ctrlSetText "xm8Apps\ExileSecurity\Images\logo1.paa";
+_backgroundSplash ctrlSetText "xm8Apps\Apps\ExileSecurity\Images\logo1.paa";
 _backgroundSplash ctrlSetFade 1;
 _backgroundSplash ctrlShow true;
 _backgroundSplash ctrlSetPosition [3 * (0.025) + (0), 2 * (0.04) + (0),34 * (0.025),30.5 * (0.025)];
@@ -101,7 +101,7 @@ _backgroundSplash ctrlCommit 1.750;
     waitUntil {ctrlCommitted _backgroundSplash};
 
 _backgroundSplash3 = _display ctrlCreate ["RscPicture", 6029];
-_backgroundSplash3 ctrlSetText "xm8Apps\ExileSecurity\Images\logo3.paa";
+_backgroundSplash3 ctrlSetText "xm8Apps\Apps\ExileSecurity\Images\logo3.paa";
 _backgroundSplash3 ctrlSetPosition [3 * (0.025) + (0), 2 * (0.04) + (0),34 * (0.025),30.5 * (0.025)];
 _backgroundSplash3 ctrlSetFade 1;
 _backgroundSplash3 ctrlCommit 0;

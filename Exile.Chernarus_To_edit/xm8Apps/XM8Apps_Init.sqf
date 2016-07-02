@@ -53,7 +53,7 @@ app4_action = {
 
 //App 5
 _app5Text = "XM8Security";
-_app5Logo = "xm8Apps\ExileSecurity\Images\ExileSecurity.paa";
+_app5Logo = "xm8Apps\Apps\ExileSecurity\Images\ExileSecurity.paa";
 app5_action =  {
 	[] spawn ExileSecurity_Territory
 };

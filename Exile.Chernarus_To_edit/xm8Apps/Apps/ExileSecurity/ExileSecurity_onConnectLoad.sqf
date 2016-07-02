@@ -95,7 +95,7 @@ _MenuButton ctrlShow true;
 _MenuImage = _display ctrlCreate ["RscPicture", 6003];
 _MenuImage ctrlSetPosition [0.073, 11 * (0.04) + (0),1 * (0.025),2 * (0.04)];
 _MenuImage ctrlCommit 0;
-_MenuImage ctrlSetText "xm8Apps\ExileSecurity\Images\SideMenu.paa";
+_MenuImage ctrlSetText "xm8Apps\Apps\ExileSecurity\Images\SideMenu.paa";
 _MenuImage ctrlSetPosition [11.05 * (0.025) + (0), 11 * (0.04) + (0),1 * (0.025),2 * (0.04)];
 _MenuImage ctrlCommit 0.5;
 _MenuButton ctrlShow true;
