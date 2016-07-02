@@ -22,7 +22,7 @@ color key
 */
 _TextColor = 1;
 
-_line1Text = "Welcome to ZombiehunterZ Exile!";
+_line1Text = "Welcome to EOD Custom Exile Server!";
 _line2Text = "Rules:";
 _line3Text = "- No stealing, destroying, longtime parking or trolling in safezones! Not even from unlocked cars!!!";
 _line4Text = "- No building on or above streets!";
@@ -30,11 +30,8 @@ _line5Text = "- No blocking of lootable buildings! (Exceptions: Barns of all kin
 _line6Text = "- No building within line of sight of Traders (That includes the aircraft trader!)";
 _line7Text = "- Bases are not to be destroyed!";
 _line8Text = "If you are not sure what's allowed: Ask first, act later!!";
-_line9Text = "Complete set of rules are available on:";
-_line10Text = "www.zombiehunterz.de";
-_line11Text = "Teamspeak:";
-_line12Text = "zombiehunterz.de";
-_line13Text = "PW: 13579";
+_line9Text = "Join our discord chat server.";
+_line9Text = "https://discord.gg/0TIba9L7CByHvtzD";
 /////////////////////
 //CONFIG
 ////////////////////
