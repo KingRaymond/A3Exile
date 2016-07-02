@@ -486,6 +486,8 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
 		items[] =
 		{
+			"Exile_Headgear_SantaHat",
+			"Exile_Headgear_SafetyHelmet",
 			"G_Diving",
 			"H_Cap_blk",
 			"H_Cap_blk_Raven",
@@ -627,7 +629,11 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemmuzzle_ca.paa";
 		items[] = 
 		{
-
+			"muzzle_snds_338_black",
+			"muzzle_snds_338_green",
+			"muzzle_snds_338_sand",
+			"muzzle_snds_93mmg",
+			"muzzle_snds_93mmg_tan",
 			"muzzle_snds_acp",
 			"muzzle_snds_B",
 			"muzzle_snds_H",
@@ -683,13 +689,14 @@
 			"optic_KHS_hex",
 			"optic_KHS_old",
 			"optic_KHS_tan",
+			"optic_LRPS",
 			"optic_MRCO",
 			"optic_MRD",
 			"optic_Nightstalker",
 			"optic_NVS",
 			"optic_SOS",
-			"optic_tws",
-			"optic_tws_mg",
+			//"optic_tws",
+			//"optic_tws_mg",
 			"optic_Yorris"
 		};
 	};
@@ -711,9 +718,18 @@
 			"Exile_Item_MetalPole",
 			"Exile_Item_SafeKit",
 			"Exile_Item_CamoTentKit",
+			"Exile_Item_CodeLock"
+			
+			/*
+			"Exile_Item_MetalScrews",
+			"Exile_Item_MetalWire",
 			"Exile_Item_Laptop",
 			"Exile_Item_BaseCameraKit",
-			"Exile_Item_CodeLock"
+			"Exile_Item_MetalHedgehogKit",
+			"Exile_Item_CarWheel",
+			"Exile_Item_Cement",
+			"Exile_Item_Sand"
+			*/
 		};
 	};
 
@@ -747,10 +763,12 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
+			"Exile_Item_PlasticBottleCoffee",
 			"Exile_Item_PowerDrink",
 			"Exile_Item_PlasticBottleFreshWater",
 			"Exile_Item_Beer",
 			"Exile_Item_EnergyDrink",
+			"Exile_Item_ChocolateMilk",
 			"Exile_Item_MountainDupe",
 			"Exile_Item_PlasticBottleEmpty"
 		};
@@ -768,8 +786,28 @@
 			"Exile_Item_Handsaw",
 			"Exile_Item_Pliers",
 			"Exile_Item_Grinder",
+			
+
+			"Exile_Item_Foolbox",
+
+			/*
+			"Exile_Item_CordlessScrewdriver",
+			"Exile_Item_FireExtinguisher",
+			"Exile_Item_Hammer",
+			"Exile_Item_OilCanister",
+			"Exile_Item_Screwdriver",
+			"Exile_Item_Shovel",
+			"Exile_Item_Wrench",
+			"Exile_Item_SleepingMat",	
+			"Exile_Item_ToiletPaper",			
+			"Exile_Item_ZipTie",
+			*/
+
 			"Binocular",
 			"Rangefinder",
+			/*"Laserdesignator",
+			"Laserdesignator_02",
+			"Laserdesignator_03",*/
 			"NVGoggles",
 			"NVGoggles_INDEP",
 			"NVGoggles_OPFOR",
@@ -800,8 +838,10 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			
-			
+			"B_Parachute",
+			"V_RebreatherB",
+			"V_RebreatherIA",
+			"V_RebreatherIR",
 			"Exile_Headgear_GasMask"		
 		};
 	};
@@ -866,9 +906,11 @@
 			"150Rnd_762x51_Box",
 			"10Rnd_93x64_DMR_05_Mag",
 			"11Rnd_45ACP_Mag",
+			//"130Rnd_338_Mag", SPMG
 			"150Rnd_762x54_Box",
 			"150Rnd_762x54_Box_Tracer",
-			"150Rnd_762x51_Box_Tracer",
+			//"150Rnd_93x64_Mag", // NAVID
+
 			"16Rnd_9x21_Mag",
 			"30Rnd_9x21_Green_Mag",
 			"30Rnd_9x21_Yellow_Mag",
@@ -898,7 +940,30 @@
 			"6Rnd_GreenSignal_F",
 			"6Rnd_RedSignal_F",
 			"7Rnd_408_Mag",
-			"9Rnd_45ACP_Mag"
+			"9Rnd_45ACP_Mag",
+			"Exile_Magazine_30Rnd_762x39_AK",
+			"Exile_Magazine_30Rnd_545x39_AK_Green",
+			"Exile_Magazine_30Rnd_545x39_AK_Red",
+			"Exile_Magazine_30Rnd_545x39_AK_White",
+			"Exile_Magazine_30Rnd_545x39_AK_Yellow",
+			"Exile_Magazine_45Rnd_545x39_RPK_Green",
+			"Exile_Magazine_75Rnd_545x39_RPK_Green",
+			"Exile_Magazine_20Rnd_762x51_DMR",
+			"Exile_Magazine_20Rnd_762x51_DMR_Yellow",
+			"Exile_Magazine_20Rnd_762x51_DMR_Red",
+			"Exile_Magazine_20Rnd_762x51_DMR_Green",
+			"Exile_Magazine_10Rnd_303",
+			"Exile_Magazine_100Rnd_762x54_PK_Green",
+			"Exile_Magazine_7Rnd_45ACP",
+			"Exile_Magazine_8Rnd_9x18",
+			"Exile_Magazine_30Rnd_545x39_AK",
+			"Exile_Magazine_6Rnd_45ACP",
+			"Exile_Magazine_5Rnd_22LR",
+			"Exile_Magazine_10Rnd_762x54",
+			"Exile_Magazine_10Rnd_9x39",
+			"Exile_Magazine_20Rnd_9x39",
+			//"Exile_Magazine_8Rnd_74Pellets",
+			"Exile_Magazine_8Rnd_74Slug"
 		};
 	};
 
@@ -967,8 +1032,19 @@
 			"B_IR_Grenade",
 			"O_IR_Grenade",
 			"I_IR_Grenade",
-			"1Rnd_HE_Grenade_shell"
-			
+			"1Rnd_HE_Grenade_shell",
+			"3Rnd_HE_Grenade_shell",
+			"APERSBoundingMine_Range_Mag",
+			"APERSMine_Range_Mag",
+			"APERSTripMine_Wire_Mag",
+			"ClaymoreDirectionalMine_Remote_Mag",
+			"DemoCharge_Remote_Mag",
+			"IEDLandBig_Remote_Mag",
+			"IEDLandSmall_Remote_Mag",
+			"IEDUrbanBig_Remote_Mag",
+			"IEDUrbanSmall_Remote_Mag",
+			"SatchelCharge_Remote_Mag",
+			"SLAMDirectionalMine_Wire_Mag"
 		};
 	};
 	
@@ -983,7 +1059,11 @@
 			"hgun_Pistol_heavy_01_F",
 			"hgun_Pistol_heavy_02_F",
 			"hgun_Pistol_Signal_F",
-			"hgun_Rook40_F"
+			"hgun_Rook40_F",
+			"Exile_Weapon_Colt1911",
+			"Exile_Weapon_Makarov",
+			"Exile_Weapon_Taurus",
+			"Exile_Weapon_TaurusGold"
 		};
 	};
 
@@ -1009,11 +1089,17 @@
 			"arifle_MX_SW_F",
 			"LMG_Mk200_F",
 			"LMG_Zafir_F",
+			"Exile_Weapon_RPK",
+			"Exile_Weapon_PK",
+			"Exile_Weapon_PKP"
+
+			/*
 			"MMG_01_hex_F",
 			"MMG_01_tan_F",
 			"MMG_02_black_F",
 			"MMG_02_camo_F",
 			"MMG_02_sand_F"
+			*/
 		};
 	};
 
@@ -1041,7 +1127,25 @@
 			"arifle_SDAR_F",
 			"arifle_TRG20_F",
 			"arifle_TRG21_F",
-			"arifle_TRG21_GL_F"
+			"arifle_TRG21_GL_F",
+			"Exile_Weapon_AK107",
+			"Exile_Weapon_AK107_GL",
+			"Exile_Weapon_AK74",
+			"Exile_Weapon_AK74_GL",
+			"Exile_Weapon_AK47",
+			"Exile_Weapon_AKM",
+			"Exile_Weapon_AKS",
+			"Exile_Weapon_AKS_Gold"
+		};
+	};
+	
+	class Shotguns
+	{
+		name = "Shotguns";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
+			"Exile_Weapon_M1014"
 		};
 	};
 
@@ -1073,7 +1177,13 @@
 			"srifle_GM6_camo_F",
 			"srifle_GM6_F",
 			"srifle_LRR_camo_F",
-			"srifle_LRR_F"
+			"srifle_LRR_F",
+			"Exile_Weapon_CZ550",
+			"Exile_Weapon_SVD",
+			"Exile_Weapon_SVDCamo",
+			"Exile_Weapon_VSSVintorez",
+			"Exile_Weapon_DMR",
+			"Exile_Weapon_LeeEnfield"
 		};
 	};
 
@@ -1083,8 +1193,8 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			//"Exile_Bike_OldBike",
-			//"Exile_Bike_MountainBike"
+			"Exile_Bike_OldBike",
+			"Exile_Bike_MountainBike"
 		};
 	};
 
@@ -1103,6 +1213,7 @@
 			"Exile_Car_UAZ_Green",
 			"Exile_Car_UAZ_Open_Green",
 			"Exile_Car_Octavius_White",
+			"Exile_Car_Golf_Red",
 			"Exile_Car_LandRover_Green",
 			"Exile_Car_LandRover_Ambulance_Green",
 			"Exile_Car_Lada_Green",
@@ -1113,11 +1224,22 @@
 			"Exile_Car_Hatchback_Sport_Red",
 			"Exile_Car_SUV_Red",
 			"Exile_Car_SUVXL_Black",
+			"Exile_Car_SUV_Armed_Black",
 			"Exile_Car_Offroad_Rusty1",
 			"Exile_Car_Offroad_Rusty2",
 			"Exile_Car_Offroad_Rusty3",
-			"Exile_Car_Offroad_Repair_Civillian"
-
+			"Exile_Car_Offroad_Repair_Civillian",
+			"Exile_Car_Offroad_Armed_Guerilla01",
+			"Exile_Car_BRDM2_HQ",
+			"Exile_Car_BTR40_MG_Green",
+			"Exile_Car_BTR40_Green",
+			"Exile_Car_HMMWV_M134_Green",
+			"Exile_Car_HMMWV_M2_Green",
+			"Exile_Car_HMMWV_MEV_Green",
+			"Exile_Car_HMMWV_UNA_Green",
+			"Exile_Car_Strider",
+			"Exile_Car_Hunter",
+			"Exile_Car_Ifrit"
 		};
 	};
 
@@ -1132,6 +1254,7 @@
 			"Exile_Car_Van_Fuel_Black",
 			"Exile_Car_Ural_Open_Worker",
 			"Exile_Car_Ural_Covered_Worker",
+			"Exile_Car_V3S_Covered",
 			"Exile_Car_Zamak",
 			"Exile_Car_Tempest",
 			"Exile_Car_HEMMT",
@@ -1185,6 +1308,7 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"Exile_Plane_Cessna"
+			"Exile_Plane_Cessna",
+			"Exile_Plane_AN2_Green"
 		};
 	};
