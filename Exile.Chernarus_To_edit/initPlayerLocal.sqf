@@ -11,4 +11,6 @@ if (!hasInterface || isServer) exitWith {};
 // Traders
 ///////////////////////////////////////////////////////////////////////////
 
-execVM "traders\traders.sqf";
+[] execVM "traders\traders.sqf";
+[] execVM "addons\SecureSafezones\config.sqf";
+[] execVM "addons\statusBar\statusbar.sqf"; 
